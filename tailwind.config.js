@@ -17,6 +17,8 @@ module.exports = {
         black: '#171717',
         black_1: '#B5B6BA',
         black_light: '#F7F7F7',
+        gradiant_start: '#D6D6D6',
+        gradiant_stop: '#FA9013',
       },
       fontSize: {
         h1: ['64px', '72px'],
