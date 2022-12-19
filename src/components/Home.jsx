@@ -2,8 +2,8 @@ import React from 'react';
 
 function Home() {
   return (
-    <div className="grid grid-cols-2 gap-2 pt-16 relative">
-      <div className="left flex flex-col gap-8">
+    <div className="grid grid-cols-2 gap-2 pt-16 bg-white px-40 pb-28 ">
+      <div className="left flex flex-col gap-8 pt-16">
         <h1 className=" text-h1 font-bold">
           Discovering the best food & drink spots in Hawassa.
         </h1>
@@ -13,7 +13,7 @@ function Home() {
           beautiful city of Hawassa.
         </p>
         <div className="flex gap-6 items-center">
-          <button className=" bg-primary_light text-black rounded py-3 px-5">
+          <button className=" bg-primary_light text-black rounded-lg py-3 px-5">
             Contact Us
           </button>
           <button className="flex gap-1">
@@ -22,8 +22,12 @@ function Home() {
           </button>
         </div>
       </div>
-      <div className="absolute top-0 right-0">
-        <img src="./img/male_burger.png" alt="Male Character holding Burger" />
+      <div className="relative">
+        <img
+          src="./img/male_burger.png"
+          alt="Male Character holding Burger"
+          className="absolute top-0 left-0"
+        />
       </div>
     </div>
   );
