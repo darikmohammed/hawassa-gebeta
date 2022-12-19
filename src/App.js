@@ -1,7 +1,15 @@
+import Body from './components/Body';
+import Nav from './components/Nav';
+
 function App() {
   return (
-    <div className="App">
-      <h1>Heading</h1>
+    <div className="font-poppin">
+      <header className="sticky top-0 z-10">
+        <Nav />
+      </header>
+      <main>
+        <Body />
+      </main>
     </div>
   );
 }
