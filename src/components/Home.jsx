@@ -2,7 +2,7 @@ import React from 'react';
 
 function Home() {
   return (
-    <div className="grid grid-cols-2 gap-2 pt-16 bg-white px-40 pb-28 ">
+    <section id='home' className="grid grid-cols-2 gap-2 pt-16 bg-white px-40 pb-28 ">
       <div className="left flex flex-col gap-8 pt-16">
         <h1 className=" text-h1 font-bold">
           Discovering the best food & drink spots in Hawassa.
@@ -29,7 +29,7 @@ function Home() {
           className="absolute top-0 left-0"
         />
       </div>
-    </div>
+    </section>
   );
 }
 
