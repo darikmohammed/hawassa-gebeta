@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutUs from './AboutUs';
 import Home from './Home';
+import Service from './Service';
 import Work from './Work';
 
 function Body() {
@@ -9,7 +10,7 @@ function Body() {
       <Home />
       <AboutUs />
       <Work />
-      <h1 className=" h-96">Body</h1>
+      <Service />
     </div>
   );
 }
