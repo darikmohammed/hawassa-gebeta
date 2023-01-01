@@ -4,7 +4,7 @@ function AboutUs() {
   return (
     <section
       id="about-us"
-      className="grid grid-cols-2 gap-20 px-40 items-center justify-items-center"
+      className="grid grid-cols-2 gap-20 px-40 pb-40 items-center justify-items-center"
     >
       {/* <div className="bg-white rounded-lg px-6 py-2 flex gap-2 items-center">
           <div className="flex mb-5 -space-x-4">

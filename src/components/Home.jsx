@@ -2,7 +2,10 @@ import React from 'react';
 
 function Home() {
   return (
-    <section id='home' className="grid grid-cols-2 gap-2 pt-16 bg-white px-40 pb-28 ">
+    <section
+      id="home"
+      className="grid grid-cols-2 gap-2 pt-16 bg-white px-40 pb-28 "
+    >
       <div className="left flex flex-col gap-8 pt-16">
         <h1 className=" text-h1 font-bold">
           Discovering the best food & drink spots in Hawassa.
@@ -26,7 +29,7 @@ function Home() {
         <img
           src="./img/male_burger.png"
           alt="Male Character holding Burger"
-          className="absolute top-0 left-0"
+          className="absolute top-0 right-1/2 translate-x-2/4"
         />
       </div>
     </section>
