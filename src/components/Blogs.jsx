@@ -7,14 +7,6 @@ function Blogs() {
       <h1 class=" text-h4 font-bold">Blogs</h1>
       <div class="flex flex-nowrap px-2 overflow-x-auto no-scrollbar gap-4 snap-x snap-mandatory">
         <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
       </div>
     </section>
   );

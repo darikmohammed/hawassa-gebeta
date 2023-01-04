@@ -1,7 +1,8 @@
 import React from 'react';
-
+import data from '../../data/data';
+console.log(data.blogs);
 function Card() {
-  return (
+  return data.blogs.map((blog) => (
     <div class=" flex-none snap-always snap-center bg-black_light p-4 rounded-lg flex flex-col gap-4">
       <img src="./img/blogs/Majet.png" alt="Majet" />
       <div>
@@ -16,7 +17,7 @@ function Card() {
         Get Direction
       </button>
     </div>
-  );
+  ));
 }
 
 export default Card;
