@@ -6,7 +6,7 @@ function Home() {
       id="home"
       className="grid grid-cols-2 gap-2 pt-16 bg-white px-40 pb-28 "
     >
-      <div className="left flex flex-col gap-8 pt-16">
+      <div className="flex flex-col gap-8 pt-16">
         <h1 className=" text-h1 font-bold">
           Discovering the best food & drink spots in Hawassa.
         </h1>
@@ -25,7 +25,7 @@ function Home() {
           </button>
         </div>
       </div>
-      <div className="relative">
+      <div className="hidden md:block md:relative">
         <img
           src="./img/male_burger.png"
           alt="Male Character holding Burger"
