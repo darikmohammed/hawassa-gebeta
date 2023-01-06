@@ -9,8 +9,8 @@ function Body() {
   return (
     <div className=" h-full bg-body">
       <Home />
-      {/* <AboutUs />
-      <Work />
+      <AboutUs />
+      {/* <Work />
       <Service />
       <Blogs /> */}
     </div>

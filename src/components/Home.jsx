@@ -4,7 +4,7 @@ function Home() {
   return (
     <section
       id="home"
-      className=" flex flex-col px-8 bg-white md:grid md:grid-cols-2 md:gap-2 md:pt-16 md:px-40 md:pb-28"
+      className=" flex flex-col px-8 pb-8 bg-white md:grid md:grid-cols-2 md:gap-2 md:pt-16 md:px-40 md:pb-28"
     >
       <div className="flex flex-col gap-8 pt-8 md:pt-16">
         <h1 className=" text-[24px] md:text-h1 font-bold">
