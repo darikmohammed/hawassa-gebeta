@@ -7,7 +7,9 @@ function App() {
       <header className="sticky top-0 z-10 w-full">
         <Nav />
       </header>
-      <main>{/* <Body /> */}</main>
+      <main>
+        <Body />
+      </main>
     </div>
   );
 }

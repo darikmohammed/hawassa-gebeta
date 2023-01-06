@@ -2,7 +2,7 @@ import React from 'react';
 
 function Nav() {
   return (
-    <nav className=" px-4 py-8 flex justify-between items-center shadow-lg shadow-slate-400/10 bg-white md:px-40">
+    <nav className=" px-8 py-8 flex justify-between items-center shadow-lg shadow-slate-400/10 bg-white md:px-40">
       <div className="logo flex items-center gap-3">
         <img
           src="./img/logo.png"

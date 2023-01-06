@@ -4,10 +4,10 @@ function Home() {
   return (
     <section
       id="home"
-      className="grid grid-cols-2 gap-2 pt-16 bg-white px-40 pb-28 "
+      className=" flex flex-col px-8 bg-white md:grid md:grid-cols-2 md:gap-2 md:pt-16 md:px-40 md:pb-28"
     >
-      <div className="flex flex-col gap-8 pt-16">
-        <h1 className=" text-h1 font-bold">
+      <div className="flex flex-col gap-8 pt-8 md:pt-16">
+        <h1 className=" text-[24px] md:text-h1 font-bold">
           Discovering the best food & drink spots in Hawassa.
         </h1>
         <p className=" text-black">
@@ -15,7 +15,7 @@ function Home() {
           We got your back, We’ll guide you through some cool spots in the
           beautiful city of Hawassa.
         </p>
-        <div className="flex gap-6 items-center">
+        <div className="flex gap-6 items-center self-center md:self-start">
           <button className=" bg-primary_light text-black rounded-lg py-3 px-5">
             Contact Us
           </button>

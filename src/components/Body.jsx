@@ -9,10 +9,10 @@ function Body() {
   return (
     <div className=" h-full bg-body">
       <Home />
-      <AboutUs />
+      {/* <AboutUs />
       <Work />
       <Service />
-      <Blogs />
+      <Blogs /> */}
     </div>
   );
 }
