@@ -15,7 +15,7 @@ function Home() {
           We got your back, We’ll guide you through some cool spots in the
           beautiful city of Hawassa.
         </p>
-        <div className="flex gap-6 items-center self-center md:self-start">
+        <div className="flex gap-6 items-center self-start">
           <button className=" bg-primary_light text-black rounded-lg py-3 px-5">
             Contact Us
           </button>

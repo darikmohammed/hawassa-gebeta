@@ -9,7 +9,7 @@ function AboutUs() {
       <img
         src="./img/Frame.png"
         alt="Customer Frame"
-        className="block md:hidden"
+        className="block self-center w-[248px] h-[74.94px] md:hidden"
       />
       <div className=" hidden md:block mt-14 w-[37.5rem] h-[37.5rem] rounded-full bg-gradient-to-b from-black_light to-gradiant_stop relative">
         <img
@@ -19,9 +19,11 @@ function AboutUs() {
         />
       </div>
       <div className=" flex flex-col mt-8 items-center gap-8 md:items-end md:mt-80">
-        <h1 className=" text-h6 font-bold opacity-50">Who we are?</h1>
+        <h1 className=" text-[16px] md:text-h6 font-bold opacity-50">
+          Who we are?
+        </h1>
         <div className="flex gap-2 items-center">
-          <h2 className=" text-h4 font-bold">A bit about us</h2>
+          <h2 className=" text-[24px] md:text-h4 font-bold">A bit about us</h2>
           <div className=" hidden md:flex smile-img bg-primary_light rounded-full w-16 h-16 items-center justify-center">
             <img src="./img/smile.png" alt="Smile" className="" />
           </div>
