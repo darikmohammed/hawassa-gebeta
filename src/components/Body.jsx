@@ -11,8 +11,8 @@ function Body() {
       <Home />
       <AboutUs />
       <Work />
-      {/* <Service />
-      <Blogs /> */}
+      <Service />
+      {/* <Blogs /> */}
     </div>
   );
 }
