@@ -3,11 +3,13 @@ import Card from './Service/Card';
 
 function Service() {
   return (
-    <section class="flex items-stretch px-40 bg-white">
-      <div class=" w-full grid grid-cols-2 bg-black_light my-20 gap-24 px-16 rounded-xl">
+    <section class="flex items-stretch md:px-40 bg-white">
+      <div class=" w-full grid grid-cols-1 md:grid-cols-2 bg-black_light my-20 md:gap-24 px-8 md:px-16 rounded-xl">
         <div class="flex flex-col gap-4 py-10">
           <h1 class=" opacity-50">Service</h1>
-          <h2 class=" text-h3 font-bold">What we do for our customers</h2>
+          <h2 class=" text-[24px] md:text-h3 font-bold">
+            What we do for our customers
+          </h2>
           <p class=" text-justify">
             Besides guiding you to explore and discover the beautiful city of
             Hawassa, We also give different services for hotels, restaurants,
@@ -15,7 +17,7 @@ function Service() {
             digital marketing services and guide companies to reach and convert
             their target audience Via search, socials and more.
           </p>
-          <div class="flex items-center gap-8">
+          <div class=" hidden md:flex items-center gap-8 ">
             <button className=" bg-primary_light text-black rounded-lg py-3 px-5">
               Contact Us
             </button>
@@ -25,13 +27,13 @@ function Service() {
             </button>
           </div>
         </div>
-        <div class="grid grid-cols-2 items-center gap-10">
+        <div class=" flex flex-col-reverse items-center  gap-4 md:grid md:grid-cols-2 md:items-center md:gap-10">
           <Card
             icon="Share"
             header="Social Media Management"
             desc="Managing your online presence on social media platforms."
           />
-          <div class="flex flex-col gap-10">
+          <div class="flex flex-row-reverse gap-4 md:flex-col md:gap-10">
             <Card
               icon="Search"
               header="Local SEO"
