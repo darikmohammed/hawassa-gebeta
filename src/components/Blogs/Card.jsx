@@ -2,7 +2,7 @@ import React from 'react';
 
 function Card({ Image, Name, Food, Birr, Location }) {
   return (
-    <div class=" flex-none snap-always snap-center bg-black_light p-4 rounded-lg flex flex-col justify-between gap-4">
+    <div class=" flex-none bg-black_light p-4 rounded-lg flex flex-col justify-between gap-4">
       <img src={`./img/blogs/${Image}.png`} alt={Name} />
       <div>
         <h1 class=" font-bold text-xl">{Name}</h1>
