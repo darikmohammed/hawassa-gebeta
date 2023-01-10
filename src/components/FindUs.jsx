@@ -7,7 +7,7 @@ function FindUs() {
       <h1 className=" text-center text-[16px] font-bold md:text-[32px] ">
         Find restaurant near you in Hawassa
       </h1>
-      <div className=" bg-black_light flex flex-col self-stretch items-center rounded-xl py-[32px] md:py-[64px]">
+      <div className=" bg-black_light flex flex-col self-stretch items-center rounded-xl py-[32px] md:py-[64px] px-8">
         <Map />
         <div></div>
       </div>
