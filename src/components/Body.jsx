@@ -12,7 +12,7 @@ function Body() {
       <AboutUs />
       <Work />
       <Service />
-      {/* <Blogs /> */}
+      <Blogs />
     </div>
   );
 }
