@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutUs from './AboutUs';
+import Advertise from './Advertise';
 import Blogs from './Blogs';
 import FindUs from './FindUs';
 import Home from './Home';
@@ -8,13 +9,14 @@ import Work from './Work';
 
 function Body() {
   return (
-    <div className=" h-full bg-body">
+    <div className=" bg-body">
       <Home />
       <AboutUs />
       <Work />
       <Service />
       {/* <Blogs /> */}
       <FindUs />
+      <Advertise />
     </div>
   );
 }
