@@ -26,3 +26,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.ad-gradiant {
+  background: linear-gradient(91.83deg, #FAA613 0%, #FF7A00 51.54%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
