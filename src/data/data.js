@@ -1,4 +1,42 @@
 const data = {
+  locations: [
+    {
+      name: 'Azi cultural restaurant',
+      disc: [
+        'Rating - 4.2',
+        'Known by their Sidama cultural foods.',
+        'Menahriya around CBE Daka branch',
+        'Closes soon 9:00PM',
+      ],
+    },
+    {
+      name: 'Zanzibar lounge & kitchen',
+      disc: [
+        'Rating - 4.7',
+        'Perfect for date and chill with your friends.',
+        '05 beside Lake view Hotel',
+        'Closes soon 11:00PM',
+      ],
+    },
+    {
+      name: 'Light burger & Chicken',
+      disc: [
+        'Rating - 4.8',
+        'Recommend for chicken lovers.',
+        'Campus Road; On the way from Mobil to Campus Around Silasie Traffic light',
+        'Closes soon 10:00PM',
+      ],
+    },
+    {
+      name: 'Girar lounge',
+      disc: [
+        'Rating - 4.5',
+        'Great place for dating. Atmosphere os chill and cool also the place got some nice foods. ',
+        'Logita Beside Hawassa Artificial stadium ',
+        'Closes soon 10:30PM',
+      ],
+    },
+  ],
   blogs: [
     {
       Image: 'Majest',
