@@ -31,9 +31,30 @@ function Footer() {
             Contact
           </h1>
           <ul className="flex flex-col gap-2">
-            <li>+251 91 624 1399</li>
-            <li>hawassagebeta@gamil.com</li>
-            <li>Hawassa, Piassa street</li>
+            <li className="flex gap-3">
+              <img
+                src="./img/footer/phone.png"
+                alt="Phone"
+                className=" self-center"
+              />
+              +251 91 624 1399
+            </li>
+            <li className="flex gap-3">
+              <img
+                src="./img/footer/email.png"
+                alt="Email"
+                className=" self-center"
+              />
+              hawassagebeta@gamil.com
+            </li>
+            <li className="flex gap-3">
+              <img
+                src="./img/footer/location.png"
+                alt="Location"
+                className=" self-center"
+              />
+              Hawassa, Piassa street
+            </li>
           </ul>
         </div>
         <div className="flex flex-col gap-3">
