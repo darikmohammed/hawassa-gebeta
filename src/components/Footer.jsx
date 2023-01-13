@@ -3,8 +3,8 @@ import SocialIcons from './SocialIcons';
 
 function Footer() {
   return (
-    <div className="flex flex-col md:flex-row">
-      <div className="flex flex-col gap-3">
+    <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
+      <div className="flex flex-col gap-3 max-w-[349px]">
         <div className="flex items-center gap-3">
           <img
             src="./img/logo.png"
@@ -21,9 +21,47 @@ function Footer() {
           information's and reviews including personal recommendations on our
           socials. Let’s explore Hawassa Together!{' '}
         </p>
-        <SocialIcons />
+        <div className="hidden md:block">
+          <SocialIcons />
+        </div>
       </div>
-      <div></div>
+      <div className="flex flex-col md:flex-row md:justify-between items-start flex-1 gap-8">
+        <div className="flex flex-col gap-3">
+          <h1 className=" font-bold text-[16px] md:text-[18px] md:font-normal">
+            Contact
+          </h1>
+          <ul className="flex flex-col gap-2">
+            <li>+251 91 624 1399</li>
+            <li>hawassagebeta@gamil.com</li>
+            <li>Hawassa, Piassa street</li>
+          </ul>
+        </div>
+        <div className="flex flex-col gap-3">
+          <h1 className="font-bold text-[16px] md:text-[18px] md:font-normal">
+            Site Page
+          </h1>
+          <ul className="flex flex-col gap-2">
+            <li>Home</li>
+            <li>About</li>
+            <li>Blogs</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div className="flex flex-col gap-3">
+          <h1 className="font-bold text-[16px] md:text-[18px] md:font-normal">
+            Services
+          </h1>
+          <ul className="flex flex-col gap-2">
+            <li>Local SEO</li>
+            <li>Digital marketing strategy</li>
+            <li>Social media advertisement</li>
+            <li>Social media management</li>
+          </ul>
+        </div>
+        <div className="block md:hidden">
+          <SocialIcons />
+        </div>
+      </div>
     </div>
   );
 }
