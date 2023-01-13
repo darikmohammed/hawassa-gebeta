@@ -3,7 +3,7 @@ import SocialIcons from './SocialIcons';
 
 function Footer() {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
+    <div className="flex flex-col md:flex-row md:items-center justify-center gap-8 md:gap-16">
       <div className="flex flex-col gap-3 max-w-[349px]">
         <div className="flex items-center gap-3">
           <img
