@@ -2,7 +2,7 @@ import React from 'react';
 
 function Map() {
   return (
-    <div>
+    <div className="w-full">
       <img src="./HawassaMap.png" alt="Map" className="w-full" />
     </div>
   );
