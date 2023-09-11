@@ -3,8 +3,6 @@ import DirectionDesc from './DirectionDesc';
 import Map from './Map';
 import data from '../data/data';
 
-console.log(data.locations);
-
 function FindUs() {
   return (
     <section className="bg-white flex flex-col md:px-40 items-center py-16 gap-8">

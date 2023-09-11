@@ -14,7 +14,7 @@ function Body() {
       <AboutUs />
       <Work />
       <Service />
-      {/* <Blogs /> */}
+      <Blogs />
       <FindUs />
       <Advertise />
     </div>
